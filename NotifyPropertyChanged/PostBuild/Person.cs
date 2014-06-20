@@ -1,6 +1,6 @@
 ﻿using PropertyChanged;
 
-namespace NotifyPropertyChanged.Fody
+namespace NotifyPropertyChanged.PostBuild
 {
     [ImplementPropertyChanged]
     public class Person

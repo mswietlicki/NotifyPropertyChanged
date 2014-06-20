@@ -54,7 +54,7 @@
   <ItemGroup>
     <Compile Include="BetterManual\Person.cs" />
     <Compile Include="BetterManual\ViewModelBase.cs" />
-    <Compile Include="Fody\Person.cs" />
+    <Compile Include="PostBuild\Person.cs" />
     <Compile Include="Manual\Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DynamicProxy\Interceptors\AutoOnPropertyChangedInterceptor.cs" />

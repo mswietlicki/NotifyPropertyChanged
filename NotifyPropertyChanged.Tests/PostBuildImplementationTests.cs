@@ -1,9 +1,9 @@
-﻿using NotifyPropertyChanged.Fody;
+﻿using NotifyPropertyChanged.PostBuild;
 using Xunit;
 
 namespace NotifyPropertyChanged.Tests
 {
-    public class FodyImplementationTests
+    public class PostBuildImplementationTests
     {
         [Fact]
         public void FirstNamePropertyChanged()

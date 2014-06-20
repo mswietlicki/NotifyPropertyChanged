@@ -45,7 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BetterManualImplementationTests.cs" />
-    <Compile Include="FodyImplementationTests.cs" />
+    <Compile Include="PostBuildImplementationTests.cs" />
     <Compile Include="ManualImplementationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ProxyImplementationTests.cs" />
