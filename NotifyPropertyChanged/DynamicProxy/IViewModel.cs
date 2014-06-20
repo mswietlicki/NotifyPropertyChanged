@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace NotifyPropertyChanged.Proxy
+namespace NotifyPropertyChanged.DynamicProxy
 {
     public interface IViewModel : INotifyPropertyChanged
     {

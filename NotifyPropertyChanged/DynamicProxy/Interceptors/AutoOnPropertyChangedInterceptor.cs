@@ -1,6 +1,6 @@
 ﻿using Castle.DynamicProxy;
 
-namespace NotifyPropertyChanged.Proxy
+namespace NotifyPropertyChanged.DynamicProxy.Interceptors
 {
     public class AutoOnPropertyChangedInterceptor : IInterceptor
     {

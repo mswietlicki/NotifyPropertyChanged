@@ -3,7 +3,7 @@ using Castle.DynamicProxy;
 using Castle.MicroKernel.Registration;
 using Castle.Windsor;
 
-namespace NotifyPropertyChanged.Proxy
+namespace NotifyPropertyChanged.DynamicProxy
 {
     public class PersonFactory
     {

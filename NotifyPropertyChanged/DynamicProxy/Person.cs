@@ -1,6 +1,6 @@
-﻿using Castle.Core;
+﻿using NotifyPropertyChanged.Proxy;
 
-namespace NotifyPropertyChanged.Proxy
+namespace NotifyPropertyChanged.DynamicProxy
 {
     public class Person : ViewModelBase
     {
