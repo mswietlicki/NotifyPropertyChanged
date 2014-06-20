@@ -39,6 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BetterManual\Person.cs" />
+    <Compile Include="BetterManual\ViewModelBase.cs" />
     <Compile Include="Manual\Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
