@@ -1,6 +1,4 @@
-﻿using NotifyPropertyChanged.Proxy;
-
-namespace NotifyPropertyChanged.DynamicProxy
+﻿namespace NotifyPropertyChanged.DynamicProxy
 {
     public class Person : ViewModelBase
     {

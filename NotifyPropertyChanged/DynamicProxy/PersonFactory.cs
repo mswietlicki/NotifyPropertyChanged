@@ -2,6 +2,7 @@
 using Castle.DynamicProxy;
 using Castle.MicroKernel.Registration;
 using Castle.Windsor;
+using NotifyPropertyChanged.DynamicProxy.Interceptors;
 
 namespace NotifyPropertyChanged.DynamicProxy
 {

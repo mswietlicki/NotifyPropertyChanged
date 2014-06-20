@@ -1,4 +1,4 @@
-﻿using NotifyPropertyChanged.Proxy;
+﻿using NotifyPropertyChanged.DynamicProxy;
 using Xunit;
 
 namespace NotifyPropertyChanged.Tests
