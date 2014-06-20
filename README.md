@@ -6,7 +6,7 @@ NotifyPropertyChanged
 Manual
 ------
 
-Simple, manual, one file, nofice INotifyPropertyChanged implementation.
+Simple, manual, one file, novice INotifyPropertyChanged implementation.
 
 BetterManual
 ------------
