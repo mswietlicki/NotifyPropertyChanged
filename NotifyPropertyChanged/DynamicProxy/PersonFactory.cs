@@ -6,6 +6,9 @@ using NotifyPropertyChanged.DynamicProxy.Interceptors;
 
 namespace NotifyPropertyChanged.DynamicProxy
 {
+    /// <summary>
+    /// PersonFactory creates dynamic proxy of type Person. Proxy will listen to changes and invoke OnPropertyChanged on property set.
+    /// </summary>
     public class PersonFactory
     {
         public Person CreatePerson()
@@ -20,7 +23,7 @@ namespace NotifyPropertyChanged.DynamicProxy
                     Component.For<Person>()
                         .ImplementedBy<Person>().Interceptors(InterceptorReference.ForType<IInterceptor>()).Anywhere);
 
-                return container.Resolve<Person>();
+                return container.Resolve<Person>(); 
             }
         }
     }

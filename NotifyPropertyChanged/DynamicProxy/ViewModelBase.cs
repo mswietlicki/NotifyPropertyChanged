@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 
 namespace NotifyPropertyChanged.DynamicProxy
 {
-    public class ViewModelBase : IViewModel
+    public class ViewModelBase : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged = delegate { };
 

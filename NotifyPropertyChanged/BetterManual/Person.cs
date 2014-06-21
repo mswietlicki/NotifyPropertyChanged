@@ -1,5 +1,8 @@
 ﻿namespace NotifyPropertyChanged.BetterManual
 {
+    /// <summary>
+    /// Person class uses base class ViewModelBase to hide most of complexity but you still have to create backing-fields 
+    /// </summary>
     public class Person : ViewModelBase
     {
         private string _firstName;
@@ -12,7 +15,7 @@
             {
                 _firstName = value;
                 OnPropertyChanged();
-                OnPropertyChanged(() => FullName);
+                OnPropertyChanged(() => FullName); //Usisng Lambda expression allows us to remove dangerous string literals.
             }
         }
 

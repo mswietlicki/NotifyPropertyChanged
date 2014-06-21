@@ -58,7 +58,6 @@
     <Compile Include="Manual\Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DynamicProxy\Interceptors\AutoOnPropertyChangedInterceptor.cs" />
-    <Compile Include="DynamicProxy\IViewModel.cs" />
     <Compile Include="DynamicProxy\Person.cs" />
     <Compile Include="DynamicProxy\PersonFactory.cs" />
     <Compile Include="DynamicProxy\ViewModelBase.cs" />

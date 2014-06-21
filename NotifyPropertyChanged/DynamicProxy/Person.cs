@@ -1,5 +1,8 @@
 ﻿namespace NotifyPropertyChanged.DynamicProxy
 {
+    /// <summary>
+    /// This Person class don't uses OnPropertyChanged() directly but every property have to be virtual.
+    /// </summary>
     public class Person : ViewModelBase
     {
         public Person()
